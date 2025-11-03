@@ -183,6 +183,7 @@ h1 {
   margin: 0.5rem 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .control label {
@@ -192,17 +193,18 @@ h1 {
 
 .control input {
   width: 100%;
-  max-width: 20rem;
+  max-width: 30rem;
   font: inherit;
   padding: 0.5rem;
   border-radius: 4px;
   border: 1px solid #ccc;
+
 }
 
 .control-row {
   display: flex;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .button {
@@ -252,6 +254,10 @@ h1 {
 
 .center {
   text-align: center;
+}
+
+.right{
+  text-align: right;
 }
 
 .error {
